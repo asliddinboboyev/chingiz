@@ -2,5 +2,6 @@ fastapi
 uvicorn
 anthropic
 pydantic
-python-dotenv
+aiosqlite
 httpx
+python-jose[cryptography]
