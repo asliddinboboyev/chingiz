@@ -1,0 +1,17 @@
+{
+  "name": "tabib-ai",
+  "version": 2,
+  "build": {
+    "builder": "python:default"
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "main:app"
+    }
+  ],
+  "env": {
+    "ANTHROPIC_API_KEY": "@rivars.ANTHROPIC_API_KEY"
+  },
+  "pythonVersion": "3.10"
+}
