@@ -5,3 +5,4 @@ pydantic
 aiosqlite
 httpx
 python-jose[cryptography]
+python-dotenv
